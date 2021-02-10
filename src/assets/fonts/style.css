@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Japanese8bit';
+  /* どちらかを選ぶ */
+  src: url('~@/assets/fonts/PixelMplus12-Regular.ttf') format('truetype');
+  /* src: url('~@/assets/fonts/PixelMplus12-Bold.ttf') format('truetype'); */
+}

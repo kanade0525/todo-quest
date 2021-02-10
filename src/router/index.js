@@ -5,6 +5,7 @@ import Index from '@/pages/Index'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'nes.css/css/nes.min.css'
+// import '../assets/fonts/style'
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)

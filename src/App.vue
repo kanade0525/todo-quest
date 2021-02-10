@@ -13,15 +13,16 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('../src/assets/fonts/style');
 #app {
   padding: 4rem 0;
   height: 100%;
   min-height: 100vh;
-  font-family: 'Press Start 2P', cursive;
+  font-family: Japanese8bit, 'Press Start 2P';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
   background: rgb(33, 37, 41);
-}
+};
 </style>
