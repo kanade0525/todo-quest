@@ -18,7 +18,7 @@ export default {
   padding: 4rem 0;
   height: 100%;
   min-height: 100vh;
-  font-family: Japanese8bit;
+  font-family: Japanese8bit, 'Press Start 2P';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
