@@ -8,6 +8,7 @@ yarn-error.log*
 /test/e2e/reports/
 selenium-debug.log
 
+
 # Editor directories and files
 .idea
 .vscode
@@ -15,3 +16,5 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+*.cache
