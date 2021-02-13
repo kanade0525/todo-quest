@@ -24,10 +24,22 @@ export default {
       todos: []
     }
   },
+  mounted () {
+    // json がぶっ壊れている可能性があるので、その場合は local storage を削除
+    if (localStorage.getItem('todos')) {
+      try {
+        this.todos = JSON.parse(localStorage.getItem('todos'))
+      } catch (e) {
+        localStorage.removeItem('todos')
+      }
+    }
+  },
   methods: {
     handleParentAddTodo (value) {
       if (value) {
         this.todos.unshift({text: value, complete: false})
+        const parsed = JSON.stringify(this.todos)
+        localStorage.setItem('todos', parsed)
       }
     },
     handleParentDeleteTodo (index) {
