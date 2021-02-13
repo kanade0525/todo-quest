@@ -44,6 +44,12 @@ export default {
     },
     handleParentDeleteTodo (index) {
       this.todos.splice(index, 1)
+      this.saveTodos()
+    },
+    saveTodos () {
+      // this.todos の値を保存
+      const parsed = JSON.stringify(this.todos)
+      localStorage.setItem('todos', parsed)
     },
     handleParentCompleteTodo (index) {
       this.todos[index].complete = !this.todos[index].complete
