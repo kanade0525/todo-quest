@@ -15,7 +15,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('../src/assets/fonts/style');
 #app {
-  padding: 4rem 0;
+  padding: 4rem 1rem;
   height: 100%;
   min-height: 100vh;
   font-family: Japanese8bit, 'Press Start 2P';
